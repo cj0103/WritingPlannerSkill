@@ -3,8 +3,8 @@
 
 import sys, os, json, hashlib
 
-SRC_DIR = r"D:\工作文档\09_金融科技专题"
-OUT_DIR = r"D:\Ollama\workbuddy\WritingPlannerSkill\knowledge_base\_raw_texts"
+SRC_DIR = r"/path/to/your/docs"
+OUT_DIR = r"./knowledge_base/_raw_texts"
 
 def extract_pdf_pypdf2(path):
     from PyPDF2 import PdfReader
